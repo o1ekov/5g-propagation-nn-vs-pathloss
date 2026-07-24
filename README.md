@@ -14,9 +14,11 @@ Mobile networks require accurate received power prediction for reliable coverage
 ### 1. Mathematical Model&mdash;Log-Distance Path Loss
 Received power is estimated using the standard log-distance path loss model:
 
-$$P(d) = P0 - 10 * n * log10(d / d0)$$
+$$P_r(d) = P_0 - 10 * n * log_{10}(d / d_0)$$
 
 where $n$ is the path loss exponent and $d0$ is a reference distance. The exponent n was derived using the sum of squared errors. (see [path_loss_deriviation.md](path_loss_deriviation.md))
+
+For this project, $d_0 = 100m$ and $P_0 = 0dBm$.
 
 ### 2. Neural Network Model
 A feedforward neural network trained on the same data, using only distance as input&mdash;no physics priors:
