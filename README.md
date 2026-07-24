@@ -10,6 +10,8 @@ Mobile networks require accurate received power prediction for reliable coverage
 ## Data
 ~100 field measurements of distane (m) and received power (dBm), collected for a 5G link. Full dataset is in [measurements.csv](measurements.csv).
 
+<img width="1180" height="775" alt="image" src="https://github.com/user-attachments/assets/e159a290-dabd-4460-bd62-336131dd3fe8" />
+
 ## Methods
 ### 1. Mathematical Model&mdash;Log-Distance Path Loss
 Received power is estimated using the standard log-distance path loss model:
