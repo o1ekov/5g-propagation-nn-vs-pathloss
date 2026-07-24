@@ -2,7 +2,7 @@
 
 Author: Oleksandr Kovalchuk
 
-A comparison of a classical log-distance path loss model with a neural network for predicting received power from distance, using real 5G measurements
+A comparison of a classical log-distance path loss model with a neural network for predicting received power from distance, using real 5G measurements.
 
 ## Problem Statement
 Mobile networks require accurate received power prediction for reliable coverage planning. Traditional analytical models rely on simplified assumptions about signal propagation that may not take into an account complex real world environment. The objective of this project is to investigate whether or not a data-driven neural network approach can learn the relationship between distance and received power purely from empirical measurements, without any prior knowledge of the propagation physics.
