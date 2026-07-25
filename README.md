@@ -8,7 +8,7 @@ A comparison of a classical log-distance path loss model with a neural network f
 Mobile networks require accurate received power prediction for reliable coverage planning. Traditional analytical models rely on simplified assumptions about signal propagation that may not take into an account complex real world environment. The objective of this project is to investigate whether or not a data-driven neural network approach can learn the relationship between distance and received power purely from empirical measurements, without any prior knowledge of the propagation physics.
 
 ## Data
-~100 field measurements of distane (m) and received power (dBm), collected for a 5G link. Full dataset is in [measurements.csv](measurements.csv).
+~100 field measurements of distance (m) and received power (dBm), collected for a 5G link. Full dataset is in [measurements.csv](measurements.csv).
 
 <img width="1180" height="775" alt="image" src="https://github.com/user-attachments/assets/e159a290-dabd-4460-bd62-336131dd3fe8" />
 
@@ -26,7 +26,7 @@ For this project, $d_0 = 100m$ and $P_0 = 0dBm$ are used.
 A feedforward neural network trained on the same data, using only distance as input&mdash;no physics priors:
 
 <ul>
-  <li> Architecture: FC(16) &rarr; BatchNowm &rarr; ReLU &rarr; Dropout(0.2) &rarr; FC(4) &rarr; BatchNorm &rarr; ReLU &rarr; FC(1) </li>
+  <li> Architecture: FC(16) &rarr; BatchNorm &rarr; ReLU &rarr; Dropout(0.2) &rarr; FC(4) &rarr; BatchNorm &rarr; ReLU &rarr; FC(1) </li>
   <li> Optimizer: Adam </li>
   <li> Initial Learning Rate: 0.001, piecewise decay </li> 
   <li> Data split: 70% train, 15% validation, 15% test </li>  
