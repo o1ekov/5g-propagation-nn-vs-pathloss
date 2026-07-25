@@ -75,5 +75,11 @@ Future works should implement broader input features such as frequency and envir
   <li> Deep Learning ToolBox </li>
 </ul>
 
+## Running
+1. Clone or download the repository, make sure that all files in MATLAB-code stay together
+2. Drag or copy [measurements.csv](measurements.csv) to MATLAB-code folder.
+3. Open MATLAB and open [MMandNNproject.prj](MATLAB-code/MMandNNproject.prj)
+4. Run [main.m](MATLAB-code/main.m)
+5. Follow the prompts in Command Window.
 
 
