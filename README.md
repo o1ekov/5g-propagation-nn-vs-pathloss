@@ -39,7 +39,7 @@ Neural Netwotk Trainning Progress:
 
 Model selection is based on the best validation-set performance across multiple training runs.
 
-Full MATLAB implementation code can be found in ...
+MATLAB code for the neural network can be found in [nn_model.m](MATLAB-code/nn_model.m).
 
 ## Results
 | Model | Test RMSE |
