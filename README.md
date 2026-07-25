@@ -33,7 +33,7 @@ A feedforward neural network trained on the same data, using only distance as in
   <li> Standardized inputs and outputs (z-score normalization) </li>
 </ul>
 
-Neural Netwotk Trainning Progress:
+Neural Network Trainning Progress:
 <img width="1400" height="700" alt="progress" src="https://github.com/user-attachments/assets/8b3eee49-8daa-45a0-85a3-d57722b008d4" />
 
 
